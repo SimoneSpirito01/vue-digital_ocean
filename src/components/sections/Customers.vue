@@ -22,7 +22,7 @@
                     <img src="../../assets/img/splunk.svg" alt="splunk-logo">
                 </div>
             </div>
-            <p>View customers stories ></p>
+            <a href="#" class="text-decoration-none">View customers stories <span class="ms-2">></span></a>
         </div>
     </section>
 </template>
@@ -53,6 +53,12 @@ export default {
             margin: 16px 0;
 
             .logo {
+                transition: transform 0.5s;
+                cursor: pointer;
+                
+                &:hover {
+                    transform: scale(1.2);
+                }
 
                 img {
                     width: 100%;

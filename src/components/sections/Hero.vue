@@ -2,11 +2,11 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-7 hero-left">
+                <div class="offset-1 offset-md-0 col-10 col-md-7 hero-left">
                     <h1>The simplest cloud platform for developers & teams</h1>
                     <p>Deploy,manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
                 </div>
-                <div class="col-12 col-md-4 offset-md-1 hero-right">
+                <div class="offset-1 offset-md-0 col-10 col-md-4 offset-md-1 hero-right">
                     <h2>Deploy your app in seconds.</h2>
                     <h2>Get started now.</h2>
                     <form action="#">

@@ -96,7 +96,7 @@ export default {
         padding: 60px 0;
         
         h2 {
-            color: #41567c;
+            color: #041d4e;
         }
 
         .content {
@@ -118,7 +118,7 @@ export default {
         }
 
         .title {
-            color: #41567c;
+            color: #041d4e;
             font-weight: bold;
             margin-bottom: 5px;
         }

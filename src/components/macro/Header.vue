@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <Logo/>
             <Navbar/>
         </div>
@@ -22,11 +22,18 @@ export default {
 
 <style lang="scss" scoped>
 
-    .container {
+    .container-fluid {
         height: 70px;
+        padding: 0 80px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+
+        @media (max-width: 640px) {
+            padding: 0 20px;
+        }
+
     }
 
 </style>
