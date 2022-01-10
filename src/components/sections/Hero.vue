@@ -56,6 +56,17 @@ export default {
                     font-size: 20px;
                     color: #bccfff;
                 }
+
+                @media (max-width: 576px) {
+
+                    h1 {
+                        font-size: 45px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
             }
 
             .hero-right {
