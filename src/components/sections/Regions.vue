@@ -129,7 +129,8 @@ export default {
 <style lang="scss" scoped>
 
     section {
-        background-color: #0041be;
+        background: rgb(0,65,190);
+        background: linear-gradient(180deg, rgba(0,65,190,1) 0%, rgba(17,23,182,1) 100%);
         padding: 60px 0;
 
         h2 {
