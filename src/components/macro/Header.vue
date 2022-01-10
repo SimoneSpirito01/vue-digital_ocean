@@ -22,16 +22,23 @@ export default {
 
 <style lang="scss" scoped>
 
-    .container-fluid {
-        height: 70px;
-        padding: 0 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
+    header {
+        position: sticky;
+        top: 0;
+        background-color: white;
 
-        @media (max-width: 640px) {
-            padding: 0 20px;
+        .container-fluid {
+            height: 70px;
+            padding: 0 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+
+            @media (max-width: 640px) {
+                padding: 0 20px;
+            }
+
         }
 
     }

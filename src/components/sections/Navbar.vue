@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light position-inherit">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,6 +45,7 @@ export default {
     nav {
         width: 70%;
         height: 100%;
+        position: initial !important;
 
         @media (max-width: 992px) {
             justify-content: flex-end !important;
@@ -55,7 +56,6 @@ export default {
                 right: 0;
                 background-color: white;
                 padding: 5px;
-                border-radius: 10px;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
                 
@@ -78,15 +78,7 @@ export default {
                     }
                 }
             }
-
-            
-
-            
         }
-
-        
-
-
         > div {
             display: flex;
             justify-content: space-between;
